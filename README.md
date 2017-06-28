@@ -1,11 +1,11 @@
-HTU21D
+IR Thermometer - MLX90614
 ======
 
-Read temperature and humidity from an htu21d sensor chip.
+Read temperature from an IR Thermometer.
 
 Properties
 ----------
-* **Platform**: Platform 
+* **Platform**: Platform
 
 Dependencies
 ------------
@@ -21,6 +21,6 @@ Any list of signals.
 
 Output
 ------
-Each signal has a `temperature` and `humidity` attribute added to the input signal.
+Each signal has a `temperature` attribute added to the input signal.
 
 If the sensors fails to read from either sensors, the new attribute value will be `None`.
